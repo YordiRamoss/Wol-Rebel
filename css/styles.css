@@ -298,8 +298,6 @@ body.over-ons-stijling {
     animation: blink 2s infinite;
 }
 
-/* code ideee om een blink toetevoegen met keyframes: https://forfrontend.com/blink-css-animation/ */
-
 .over-ons-stijling details p {
     font-size: 1em;
     margin: 20px 0;
@@ -486,13 +484,11 @@ body.achtergrond-en-tekst {
     20%, 60% { opacity: 1; color: gold; }
 }
 
-/* animatie code geleerd van: https://developer.mozilla.org/en-US/docs/Web/CSS/animation-timing-function */
-
-
 .beoordeling h2 {
     font-family: 'CustomFont1', sans-serif;
     font-size: 2em;
     margin-bottom: 10px;
+    text-shadow: 2px 2px #000, 4px 4px #551a8b;
 }
 
 .beoordeling p {
@@ -502,8 +498,19 @@ body.achtergrond-en-tekst {
     color: #ffffff;
 }
 
-.beoordeling {
-    max-width: 100%;
+.beoordeling img {
+    width: 100%; 
+    border: 4px dashed #f0e130;
     height: auto;
-    margin-top: 10px;
+    margin-bottom: 10px;
 }
+
+/*
+Bronnen die ik heb gebruikt: 
+Blink leren/maken: https://forfrontend.com/blink-css-animation/ 
+Animatie inspiratie: https://developer.mozilla.org/en-US/docs/Web/CSS/animation-timing-function
+animatie code geleerd van: https://developer.mozilla.org/en-US/docs/Web/CSS/animation-timing-function
+Mobile Navigation Bar: https://www.w3schools.com/howto/howto_js_mobile_navbar.asp 
+Mobile Navigation Bar: https://www.youtube.com/watch?v=OjQP7rPwJyE 
+Modal cheken of ik het nog correct deed: https://www.w3schools.com/howto/howto_css_modals.asp
+*/
